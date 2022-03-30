@@ -32,7 +32,7 @@ header{
 
 /* jumbotron */
 
-#jumbotron .container{
+.container-stretto{
     width: 60%;
     margin: auto;
 }
@@ -152,9 +152,23 @@ section .col-dx{
 
     /* debug */
     /* height: 300px; */
-
-    
 }
+
+.section-text{
+    text-align: center;
+    color: black;
+    padding-top: 80px;
+}
+
+.section-text h2{
+    font-size: 40px;
+}
+
+.section-img{
+    text-align: center;
+}
+
+
 
 /* footer */
 
