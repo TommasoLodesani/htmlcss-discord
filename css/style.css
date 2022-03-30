@@ -108,3 +108,52 @@ header{
 
     
 }
+
+/* footer */
+
+footer{
+    width: 100%;
+    background-color: #23272a;
+    
+    
+    /* debug */
+    height: 400px;
+
+}
+
+footer .col-big{
+    float: left;
+    width: 30%;
+
+    /* debug */
+    height: 200px;
+    background-color: yellow;
+}
+
+#footer-top{
+    width: 100%;
+    /* debug */
+    height: 200px;
+}
+
+#footer-top .col-small{
+    float: left;
+    width: 15%;
+    margin-left: 2%;
+
+    /* debug */
+    height: 200px;
+    background-color: yellowgreen;
+}
+
+footer .footer-bot{
+    width: 100%;
+    border-top: solid 1px white;
+    margin-top: 40px;
+
+    /* debug */
+    height: 100px;
+    background-color: gold
+
+
+}
