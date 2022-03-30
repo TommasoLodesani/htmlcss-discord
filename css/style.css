@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.row ::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #3161e0;
+}
+
+
+/* jumbotron */
+
+#jumbotron{
+    height: 300px;
+    width: 100%;
+    background-color: red;
+}
+
+
+#jumbotron .container{
+    width: 60%;
+    margin: auto;
+}
+
+/* corpo */
+
+/* sezione */
+
+#first-section{
+    width: 100%;
+
+    /* debug */
+    height: 300px;
+}
+
+.col-sx{
+    float: left;
+    width: 40%;
+
+    /* debug */
+    height: 100px;
+    background-color: red;
+}
+
+.col-dx{
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+
+    /* debug */
+    height: 100px;
+    background-color: blue;
+}
+
+/* main #second-section{
+    width: 100%;
+    background-color: aqua;
+    height: 100px;
+} */
+
+#second-section .col-sx{
+    float: left;
+    width: 50%;
+
+    /* debug */
+    height: 100px;
+    background-color: blue;
+
+}
+
+#second-section .col-dx{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+
+    /* debug */
+    height: 100px;
+    background-color: red;
+
+}
+
+
+/* quarta sezione */
+
+#quarta-sezione{
+    width: 100%;
+    background-color: #f6f6f6;
+
+    /* debug */
+    height: 300px;
+
+    
+}
